@@ -18,7 +18,7 @@ const Login = ({setisTake}) => {
     const handleSubmit = async(e)=>{
         e.preventDefault()
         if(form.email === '' || form.password === ''){
-            toast.error('Please fill all the fields!')
+            toast.error('Please fill all the fields')
         }
         else{
             setLoading(true)
